@@ -10,10 +10,12 @@ function App() {
   return (
     <div>
       <AppBar position="static">
-        <Link to="/">Home</Link>
-        <Link to="/brands">Brands</Link>
-        <Link to="/users">User</Link>
-        <Link to="/game">Game</Link>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/brands">Brands</Link>
+          <Link to="/users">User</Link>
+          <Link to="/game">Game</Link>
+        </nav>
       </AppBar>
 
       <Switch>
