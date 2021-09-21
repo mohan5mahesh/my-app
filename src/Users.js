@@ -4,7 +4,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router";
 // import { INITISL_USERS_LIST } from "./userlist";
-const BASE_URL = "https://unique-tamila.herokuapp.com";
+const BASE_URL = "https://60efffc3f587af00179d3c2f.mockapi.io";
 export function Users() {
   const [users, setUsers] = useState([]);
   const [username, setUsername] = useState("");
